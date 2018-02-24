@@ -9,7 +9,8 @@
     </parent>
 
     <artifactId>frontend</artifactId>
-    <packaging>jar</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
     <properties>
         <build.dest.dir>${project.build.outputDirectory}/static</build.dest.dir>

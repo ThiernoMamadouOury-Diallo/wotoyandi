@@ -1,13 +1,13 @@
 # wotoyandi
 ===========
 
-Spring boot + Hibernate + Maven
+Spring boot + Maven
 
 Dependencies
 ===========
 
 ## Front end
-* Bootstrap 4.0.0-beta.3
+* Bootstrap 4.0.0-beta.2
 * Angular Cli
 
 To get the code
@@ -34,6 +34,7 @@ Artifacts include the tomcat, therefore we have:
 
 To run the Backend locally
 ===========
+Backend is the responsabe of the calls rest Service towards the API
 
 ```sh
 mvn spring-boot:run

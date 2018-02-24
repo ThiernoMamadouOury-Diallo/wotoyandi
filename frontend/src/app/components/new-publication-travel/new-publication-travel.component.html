@@ -1,0 +1,108 @@
+<div class="main ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 new-ride">
+                <h1>Vous souhaitez proposer un trajet ?</h1>
+                <p class="small top">Publiez une annonce et trouvez un passager pour partager le voyage!</p>
+
+                <div class="row">
+                    <div class="col-sm-8 auto relative new-type">
+                        <form id="trip" class="form-horizontal">
+                            <fieldset class="new_ride">
+                                    <div class="row steps">
+
+                                        <div class="head col-xs-3">
+                                            <div class="menu active">
+                                                <strong>Étape 1</strong> Itinéraire
+                                            </div>
+                                        </div>
+
+                                        <div class="head col-xs-3">
+                                            <div class="menu ">
+                                                <strong>Étape 2</strong> Départ
+                                            </div>
+                                        </div>
+
+                                        <div class="head col-xs-3">
+                                            <div class="menu ">
+                                                <strong>Étape 3</strong> Détails
+                                            </div>
+                                        </div>
+
+                                        <div class="head col-xs-3">
+                                            <div class="menu ">
+                                                <strong>Étape 4</strong> Prix
+                                            </div>
+                                        </div>
+
+                                    </div>
+                        <div>
+                            <span class="edit_route_container">
+                                <span class="edit_route">
+                                <span id="waypoints">
+                                    <div class="head-margin">
+                                      <div class="row">
+                                        <label class="control-label col-sm-3">
+                                          Lieu de rendez-vous
+                                        </label>
+
+                                        <div class="col-sm-6">
+                                          <input type="text" class="js-waypoint form-control input-lg" value="" placeholder="Indiquez l’adresse ..." data-original-title="" title="" autocomplete="off">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="head-margin">
+                                        <div class="row">
+                                            <label class="control-label col-sm-3">
+                                              Lieu d'arrivée
+                                            </label>
+
+                                            <div class="col-sm-6">
+
+                                              <input type="text" class="js-waypoint form-control input-lg" value="" placeholder="Indiquez l’adresse ..." data-original-title="" title="" autocomplete="off">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </span>
+
+
+                                    <div class="form-group" style="margin-top:-10px">
+                                      <label class="control-label"></label>
+                                      <div class="controls col-sm-offset-3 col-sm-6">
+                                        <small>
+                                          <i class="fa fa-plus-circle"></i> <a href="#" id="add-viapoint" class="black" rel="tooltip" data-placement="right" data-original-title="Ajoutez un point si votre route est différente de celle annoncée sur la carte.">Ajoutez une étape</a>
+                                        </small>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="row mt6">
+                                      <label class="control-label col-sm-3">
+                                        Détour possible
+                                      </label>
+                                      <div class="col-sm-6">
+                                        <select id="detour" class="form-control input-lg">
+                                          <option value="none">Pas de détour</option>
+                                          <option value="5_minutes">Détour max de 5 minutes </option>
+                                          <option value="15_minutes">Détour max de 15 minutes </option>
+                                          <option value="flexible">Je suis flexible </option>
+                                        </select>
+                                        <span class="help-block small mt2"><span class="uppercase bold">Nouveauté </span>: Faites savoir aux passagers jusqu'où vous êtes prêt à dévier de votre itinéraire pour le lieu départ et d'arrivée. </span>
+                                      </div>
+                                    </div>
+
+                                </span>
+                                </span>
+
+                                <div class="form-actions text-right col-sm-10">
+                                    <button type="submit" class="Button Button--primary Button--big u-right apply-btn-loader js-realSubmit"><img class="img-loader hide" src="/images/ajax-loader-blue.gif" alt="" aria-hidden="true">Continuer</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

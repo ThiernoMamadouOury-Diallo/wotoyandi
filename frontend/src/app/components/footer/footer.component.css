@@ -1,0 +1,43 @@
+.o-mb5{
+    margin-bottom: 20px !important;
+}
+
+.badge-playstore.badge-outline, .badge-appstore.badge-outline{
+    border: 1px solid #555d68;
+    background-color: transparent;
+    text-align: center;
+}
+.badge-appstore, .badge-playstore{
+    display: block;
+    transition: all 100ms ease-in-out;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 10px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #576b87;
+    color: #fff;
+    padding: 60px 0 40px 0;
+    font-size: 15px;
+    flex: none;
+
+}
+
+.disclaimer{
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #394659;
+    color: #808fa4;
+    font-size: 13px;
+}
+
+.fad{
+    color: #576b87;
+    margin-left: 10px;
+}

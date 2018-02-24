@@ -1,0 +1,548 @@
+.tab-container {
+    margin-top: 17px;
+}
+
+.container-fluid:after, .container-fluid:before, .container:after, .container:before, .row-fluid:after, .row-fluid:before, .row:after, .row:before {
+    line-height: 0;
+    content: "";
+}
+.row-fluid:after, .row-fluid:before, .row:after, .row:before {
+    display: table;
+}
+.container-fluid:after, .container-fluid:before, .container:after, .container:before, .row-fluid:after, .row-fluid:before, .row:after, .row:before {
+    line-height: 0;
+    content: "";
+}
+.row-fluid:after, .row-fluid:before, .row:after, .row:before {
+    display: table;
+}
+.clearfix:after, .container-fluid:after, .container:after, .dl-horizontal:after, .row-fluid:after, .row:after {
+    clear: both;
+}
+
+.span3 {
+    width: 220px;
+}
+
+[class*=span] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+.nav-tabs.nav-stacked {
+    border-bottom: 0;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav {
+    margin-bottom: 20px;
+    margin-left: 0;
+    list-style: none;
+}
+ol, ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+.nav-pills:after, .nav-pills:before, .nav-tabs:after, .nav-tabs:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.controls-row:after, .dropdown-menu li>a, .form-actions:after, .form-horizontal .control-group:after, .modal-footer:after, .nav-pills:after, .nav-tabs:after, .navbar-form:after, .navbar-inner:after, .pager:after, .thumbnails:after, .ui-helper-clearfix:after {
+    clear: both;
+}
+
+.nav-pills:after, .nav-pills:before, .nav-tabs:after, .nav-tabs:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.nav-tabs.nav-stacked {
+    border-bottom: 0;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+small, .small {
+    color: #999;
+    font-size: 90%;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav {
+    margin-bottom: 20px;
+    margin-left: 0;
+    list-style: none;
+}
+ol, ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.nav-pills:after, .nav-pills:before, .nav-tabs:after, .nav-tabs:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.nav-pills:after, .nav-pills:before, .nav-tabs:after, .nav-tabs:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.controls-row:after, .dropdown-menu li>a, .form-actions:after, .form-horizontal .control-group:after, .modal-footer:after, .nav-pills:after, .nav-tabs:after, .navbar-form:after, .navbar-inner:after, .pager:after, .thumbnails:after, .ui-helper-clearfix:after {
+    clear: both;
+}
+
+.span9 {
+    width: 700px;
+}
+
+[class*=span] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+
+}
+.title-lv1 {
+    line-height: 28px;
+    font-size: 22px;
+}
+.title-lv1, .title-lv2 {
+    padding-bottom: 4px;
+    color: #708C91;
+    font-weight: 400;
+}
+.margin-bottom {
+    margin-bottom: 17px !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+.padding {
+    padding: 17px !important;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+form {
+    margin: 0 0 20px;
+}
+
+fieldset {
+    margin: 0;
+}
+
+fieldset, legend, pre code {
+    padding: 0;
+    border: 0;
+}
+
+.profile-form .civility-container, .profile-form .adresse-container {
+    margin-bottom: 26px;
+}
+.profile-form .civility-container, .profile-form .contact-container {
+    margin: 0 0 26px 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+.profile-form .control-group {
+    margin-bottom: 8px;
+}
+.form-horizontal .control-group {
+    margin-bottom: 20px;
+}
+.control-group {
+    margin-bottom: 10px;
+}
+div {
+    display: block;
+}
+
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+
+.profile-form .contact-container {
+    margin: 0 0 26px -4px;
+    padding: 18px 0;
+}
+.profile-form .civility-container, .profile-form .contact-container {
+    margin: 0 0 26px 0;
+}
+.contact-container {
+    padding-top: 25px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+
+
+.profile-form .biography-container {
+    margin-bottom: 16px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+
+.form-horizontal .control-group:after, .form-horizontal .control-group:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.form-horizontal .control-group:after, .form-horizontal .control-group:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.controls-row:after, .dropdown-menu li>a, .form-actions:after, .form-horizontal .control-group:after, .modal-footer:after, .nav-pills:after, .nav-tabs:after, .navbar-form:after, .navbar-inner:after, .pager:after, .thumbnails:after, .ui-helper-clearfix:after {
+    clear: both;
+}.profile-form .control-group {
+     margin-bottom: 8px;
+ }
+.form-horizontal .control-group {
+    margin-bottom: 20px;
+}
+.control-group {
+    margin-bottom: 10px;
+}
+div {
+    display: block;
+}
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+
+.form-horizontal .control-group:after, .form-horizontal .control-group:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.form-horizontal .control-group:after, .form-horizontal .control-group:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.controls-row:after, .dropdown-menu li>a, .form-actions:after, .form-horizontal .control-group:after, .modal-footer:after, .nav-pills:after, .nav-tabs:after, .navbar-form:after, .navbar-inner:after, .pager:after, .thumbnails:after, .ui-helper-clearfix:after {
+    clear: both;
+}
+
+.form-horizontal .help-inline, .form-horizontal .input-append, .form-horizontal .input-prepend, .form-horizontal .uneditable-input, .form-horizontal input, .form-horizontal select, .form-horizontal textarea, .form-inline .help-inline, .form-inline .input-append, .form-inline .input-prepend, .form-inline .uneditable-input, .form-inline input, .form-inline select, .form-inline textarea, .form-search .help-inline, .form-search .input-append, .form-search .input-prepend, .form-search .uneditable-input, .form-search input, .form-search select, .form-search textarea {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
+input, button, select, textarea {
+    font-family: gt-eesti,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input, textarea {
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+.uneditable-input, input, textarea {
+    margin-left: 0;
+}
+.uneditable-input, input, textarea {
+    width: 206px;
+}
+button, input, label, select, textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.navbar-search .search-query, .ui-widget, .wijmo-wijmenu .wijmo-wijmenu-item input, button, input, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+input[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+input[type="hidden" i] {
+    display: none;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+.profile-form .alert-info {
+    width: 284px;
+}
+
+.alert.no-icon {
+    background-image: none;
+    padding: 8px 12px;
+}
+
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+body {
+    font-family: gt-eesti,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-backface-visibility: hidden;
+    background: #EDEDED;
+    color: #054752;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.form-horizontal .help-inline, .form-horizontal .input-append, .form-horizontal .input-prepend, .form-horizontal .uneditable-input, .form-horizontal input, .form-horizontal select, .form-horizontal textarea, .form-inline .help-inline, .form-inline .input-append, .form-inline .input-prepend, .form-inline .uneditable-input, .form-inline input, .form-inline select, .form-inline textarea, .form-search .help-inline, .form-search .input-append, .form-search .input-prepend, .form-search .uneditable-input, .form-search input, .form-search select, .form-search textarea {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
+input, button, select, textarea {
+    font-family: gt-eesti,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input, textarea {
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+.uneditable-input, input, textarea {
+    margin-left: 0;
+}
+.uneditable-input, input, textarea {
+    width: 206px;
+}
+button, input, label, select, textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.navbar-search .search-query, .ui-widget, .wijmo-wijmenu .wijmo-wijmenu-item input, button, input, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+input[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+input[type="hidden" i] {
+    display: none;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+.form-container {
+    background: #EDEDED !important;
+    color: #054752;
+    border-radius: 3px;
+}
+
+body {
+    font-family: gt-eesti, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-backface-visibility: hidden;
+    background: #EDEDED;
+    color: #054752;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.tab-container .tab-details .nav-tabs.new>li>a {
+    color: #00AFF5;
+    font-size: 14px;
+    position: relative;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 2em;
+}
+.profile-form select {
+    width: 162px;
+}
+
+.profile-form input[type="text"], .profile-form input[type="email"], .profile-form textarea, .profile-form select {
+    float: left;
+    color: #054752;
+}
+.form-horizontal .help-inline, .form-horizontal .input-append, .form-horizontal .input-prepend, .form-horizontal .uneditable-input, .form-horizontal input, .form-horizontal select, .form-horizontal textarea, .form-inline .help-inline, .form-inline .input-append, .form-inline .input-prepend, .form-inline .uneditable-input, .form-inline input, .form-inline select, .form-inline textarea, .form-search .help-inline, .form-search .input-append, .form-search .input-prepend, .form-search .uneditable-input, .form-search input, .form-search select, .form-search textarea {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.profile-form .cellphone-row input[type="text"] {
+    width: 144px;
+    margin-left: 4px;
+}
+
+.profile-form .alert-info {
+    width: 284px;
+}
+
+.alert.no-icon {
+    background-image: none;
+    padding: 8px 12px;
+}
+.alert {
+    margin: 7px 0;
+    position: relative;
+}
+

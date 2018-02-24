@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="row">
+        <h3>Inscription</h3>
+        <span class="row line-between"></span>
+        <div class="col-md-5">
+            <form>
+                <div class="form-group">
+                    <label for="inputFirstName">Prenom</label>
+                    <input #prenom type="text" class="form-control" id="inputFirstName" placeholder="Prénom">
+                </div>
+                <div class="form-group">
+                    <label for="inputLastName">Nom de famille</label>
+                    <input #nom type="text" class="form-control" id="inputLastName" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input #email type="text" class="form-control" id="inputEmail" placeholder="Adresse mail">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Choisissez le mot de passe</label>
+                    <input #password type="password" class="form-control" id="inputPassword">
+                </div>
+                <div class="form-group">
+                    <label for="inputConfirmPassword">Confirmez le mot de passe</label>
+                    <input #confirmpassword type="password" class="form-control" id="inputConfirmPassword">
+                </div>
+                <p class="small">En cliquant sur « créez un profil » ou « connexion avec Facebook », vous acceptez nos <a class="black underline:hover" href="/terms">conditions générales</a> et vous acceptez de vous inscrire à notre newsletter. Vous pouvez toujours vous désabonner d’un simple clic.</p>            </form>
+            <div class="form-group">
+                <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+                <div class="g-recaptcha" data-sitekey="AIzaSyD4A9Bz1IVn5Qqnegr_ctOtO1gIypPPu_U"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=AIzaSyD4A9Bz1IVn5Qqnegr_ctOtO1gIypPPu_U&amp;co=aHR0cHM6Ly9nb21vcmUuZnI6NDQz&amp;hl=fr&amp;v=v1518566665321&amp;size=normal&amp;cb=wz0xc34mw074" width="304" height="78" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+                <noscript>
+                    &lt;div style="width: 302px; height: 352px;"&gt;
+                    &lt;div style="width: 302px; height: 352px; position: relative;"&gt;
+                    &lt;div style="width: 302px; height: 352px; position: absolute;"&gt;
+                    &lt;iframe
+                    src="https://www.google.com/recaptcha/api/fallback?k=6Lf8IyMTAAAAAKIOkMlljQsNskM26FV2zWoZ8x9t"
+                    frameborder="0" scrolling="no"
+                    style="width: 302px; height:352px; border-style: none;"&gt;
+                    &lt;/iframe&gt;
+                    &lt;/div&gt;
+                    &lt;div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                    bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;"&gt;
+                    &lt;textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                    class="g-recaptcha-response"
+                    style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                    margin: 0px; padding: 0px; resize: none;" value=""&gt;
+                    &lt;/textarea&gt;
+                    &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;/div&gt;
+                </noscript>
+
+                <input type="hidden" name="captcha" id="captcha" value="true">
+            </div>
+            <div class="form-group">
+                <div class="controls">
+                    <input type="submit" name="commit" value="Créez un profil" class="btn btn-success" id="signup-btn" tabindex="6">
+                </div>
+            </div>
+            <hr>
+            <p class="small">Déjà membre ? <a routerLink="/account/login">Connexion</a></p>
+
+        </div>
+        <div class="col-md-1 text-center">
+            <span class="block gray-40">Ou</span>
+        </div>
+        <div class="col-md-5 foo-grey">
+            <p>Créez votre profil en 1 clic !</p>
+            <p class="facebook-login"><a class="btn btn-lg btn-block btn-facebook" routerLink="users/auth/facebook"><i class="fa fa-facebook-square"></i> Via Facebook</a></p>
+            <small>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-check"></i> Une connexion Facebook donne de la crédibilité à votre profil de membre</li>
+                    <li><i class="fa fa-check"></i> Nous ne posterons jamais sur votre mur sans votre autorisation.</li>
+                    <li><i class="fa fa-check"></i> Nous respectons vos paramètres de confidentialité existants</li>
+                </ul>
+            </small>
+        </div>
+    </div>
+
+</div>

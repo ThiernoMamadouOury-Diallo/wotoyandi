@@ -1,0 +1,30 @@
+.line-between {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    width: 1500px;
+}
+.facebook-login{
+    margin: 0 0 10px   ;
+    display: block;
+}
+
+.small{
+    color: #999;
+    font-size: 90%;
+}
+.btn-facebook{
+    color: #fff;
+    background-color: #3b5998;
+    font-weight: 600;
+
+}
+.foo-grey{
+    background-color: #eeeeee;
+    margin-bottom: auto;
+}
+
+.gray-40{
+    color: darkgrey;
+}

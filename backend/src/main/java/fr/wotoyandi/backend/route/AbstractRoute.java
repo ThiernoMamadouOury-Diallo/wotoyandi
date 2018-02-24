@@ -31,7 +31,7 @@ public abstract class AbstractRoute {
 
     protected Invocation.Builder getClientBusinessApi(String uri) throws UnknownHostException, Exception{
         LOG.info("uri "+uri);
-        return getClientBusinessApi(uri, Collections.emptyMap());
+        return getClientBusinessApi(uri, Collections.EMPTY_MAP);
     }
     protected void throwExceptionIfError(Response response){
         throwExceptionIfError(response, "the service is currently unvailable");
